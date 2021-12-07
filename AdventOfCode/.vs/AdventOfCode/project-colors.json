@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "9d6bd68c-e40d-4a8f-8b2b-edf324ce58a0": {
+      "ProjectGuid": "9d6bd68c-e40d-4a8f-8b2b-edf324ce58a0",
+      "DisplayName": "Advent1",
+      "ColorIndex": 0
+    },
+    "49915d6a-6ecb-47a9-8ce3-3d2aa7f3d208": {
+      "ProjectGuid": "49915d6a-6ecb-47a9-8ce3-3d2aa7f3d208",
+      "DisplayName": "Advent5",
+      "ColorIndex": 1
+    },
+    "b4dca1de-ea37-45fe-b86e-3f2be23b1ca7": {
+      "ProjectGuid": "b4dca1de-ea37-45fe-b86e-3f2be23b1ca7",
+      "DisplayName": "Advent2",
+      "ColorIndex": 2
+    },
+    "ea7137bd-048f-4537-986d-d9c09322cebd": {
+      "ProjectGuid": "ea7137bd-048f-4537-986d-d9c09322cebd",
+      "DisplayName": "Advent3",
+      "ColorIndex": 3
+    },
+    "b6d36e6d-08c8-43d0-baf2-30f07159bfb7": {
+      "ProjectGuid": "b6d36e6d-08c8-43d0-baf2-30f07159bfb7",
+      "DisplayName": "Advent4",
+      "ColorIndex": 4
+    },
+    "7878bd90-b4e2-4a7f-9a4e-2e023799dc63": {
+      "ProjectGuid": "7878bd90-b4e2-4a7f-9a4e-2e023799dc63",
+      "DisplayName": "Advent6",
+      "ColorIndex": 5
+    }
+  },
+  "NextColorIndex": 6
+}

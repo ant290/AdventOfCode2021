@@ -31,5 +31,46 @@ namespace Advent5
         {
             get => startX != endX && startY != endY;
         }
+
+        public IEnumerable<Coordinates> GetCoordinates()
+        {
+            var coords = new List<Coordinates>();
+            if (startX == endX)
+            {
+                // walk the y coords
+                var maxY = Math.Max(startY, endY);
+                var minY = maxY == startY ? endY : startY;
+                for (int i = minY ; i <= maxY; i++)
+                {
+                    coords.Add(new Coordinates
+                    {
+                        X = startX,
+                        Y = i
+                    });
+                }
+            }
+            if (startY == endY)
+            {
+                // walk the x coords
+                var maxX = Math.Max(startX, endX);
+                var minX = maxX == startX ? endX : startX;
+                for (int i = minX; i <= maxX; i++)
+                {
+                    coords.Add(new Coordinates
+                    {
+                        X = i,
+                        Y = startY
+                    });
+                }
+            }
+
+            return coords;
+        }
+    }
+
+    public class Coordinates
+    {
+        public int X { get; set; }
+        public int Y { get; set; }
     }
 }
