@@ -37,5 +37,14 @@ namespace Advent8
             }
             return counter;
         }
+
+        // details to work out which letter is which segment
+        //if it's two characters, it must be a 1 so they must be top right and bottom right
+        //if its three characters, it must be a 7 so they must be top, top right and bottom right
+        //if its four characters, it must be a 4 so they must be top left, middle, top right and bottom right
+        //if its seven characters, it must be a 8... they will all be on.
+
+        //get the characters that appear in 1, 7 and not in 4.. that will give the top line
+        //get the characters that 
     }
 }
